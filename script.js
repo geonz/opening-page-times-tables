@@ -1,12 +1,11 @@
 var maxFact = 10;
 var minFact=1;
-   // this is the max num for the factors
-// oingo boingo I need to see what I called this in a more recent thing
+   
+
  function createMultImage()
 {
  // make the string of text and variables that you want to be displayed
  let multPicHTML="";
- let numMax = maxFact*maxFact;  //I don't think I need this.
  numId=0;
  for (let num=1; num<=maxFact; num++)
  {
@@ -20,7 +19,8 @@ var minFact=1;
   multPic.innerHTML=multPicHTML;
    
 } 
-createMultImage();
+
+
 function addBorder()
 {
 numId=0;
@@ -32,7 +32,7 @@ numId=0;
   
  }
 }
-addBorder();
+
 function addHeader()
 {
   headHTML="";
@@ -44,7 +44,6 @@ function addHeader()
   chartHead.innerHTML=headHTML;
 
 }
-addHeader();
 function addSide()
  {
   let sideHTML="";
@@ -55,4 +54,9 @@ function addSide()
    
    chartSide.innerHTML=sideHTML;
  }
+
+ createMultImage();
+addBorder();
+
+addHeader();
   addSide();
