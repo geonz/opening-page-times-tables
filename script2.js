@@ -1,1 +1,0 @@
-//document.getElementById("d1").style.border = "thick solid #0000FF";
